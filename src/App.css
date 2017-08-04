@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 270px 2fr 2fr 1fr 1fr 2fr 2fr 250px;
+}
+a {
+  text-decoration: none;
+}
+.App-header {
+  display: grid;
+  grid-template-rows: 40px 155px 40px 30px;
+  color: white;
+}
+.headertop {
+  background-color: #00629D;
+}
+.headerlogo {
+  background-image: url('./img/header.jpg');
+  background-repeat: no-repeat; 
+}
+.headermenu {
+  background-color: #00629D;
+}
+.breadcrumbs {
+  background-color: #F3F0F0;
+}
+
+
+
