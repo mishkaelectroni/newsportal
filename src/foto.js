@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './sport.css';
+import './foto.css';
 
-class Sport extends Component {
+class Foto extends Component {
 	render() {
 		return (
-			<div className="sport">
-				<p>Sport</p>
-			</div>
+			<div className="foto"><p>Foto</p></div>
 		);
 	}
 }
-export default Sport;
+export default Foto;

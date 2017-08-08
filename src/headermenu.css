@@ -1,0 +1,24 @@
+.headermenu {
+	display: block;
+	width: 100%;
+  background-color: #00629D;
+}
+.menumain {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+.menumain ul li{
+	display: inline-block;
+}
+.menumain li{
+	float: left;
+	padding: 11px 7px;
+}
+.menumain li:hover{
+	background-color: #0B8BD8;	
+}
+.menumain li:nth-child(2n) {
+	color: #0372B5;
+	font-size: 0.8em;
+}
