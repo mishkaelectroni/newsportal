@@ -4,16 +4,37 @@
   display: grid;
   grid-template-rows: 270px 2fr 2fr 1fr 1fr 2fr 2fr 250px;
 }
+img {
+	max-width: 100%;
+}
 a {
   text-decoration: none;
 }
 .App-header {
   display: grid;
-  grid-template-rows: 40px 155px 40px 30px;
+  grid-template-rows: 35px 155px 40px 30px;
   color: white;
 }
 .headertop {
   background-color: #00629D;
+}
+.headertopmain {
+	width: 80%;
+	margin: 0 auto;
+}
+.headertopmain ul {
+	margin: 0;
+	padding: 0;
+
+}
+.headertopmain li {
+	display: inline-block;
+	float: left;
+	padding: 2px;	
+	border-radius: 2px;
+}
+.headertopmain li:hover {
+	background-color: #0B8BD8;	
 }
 .headerlogo {
   background-image: url('./img/header.jpg');

@@ -16,7 +16,13 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <div className="headertop">
-
+              <div className="headertopmain">
+                <ul>
+                  <li><Link to="/"><img src={require('./img/icon_p.png')} alt="contakt" /></Link></li>
+                  <li><Link to="/"><img src={require('./img/icon_w.png')} alt="net" /></Link></li>
+                  <li><Link to="/"><img src={require('./img/icon_s.png')} alt="search" /></Link></li>
+                </ul>
+              </div>
           </div>
           <div className="headerlogo">
 

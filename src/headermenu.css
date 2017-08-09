@@ -11,9 +11,13 @@
 .menumain ul li{
 	display: inline-block;
 }
+.menumain ul {
+	margin: 0;
+}
 .menumain li{
 	float: left;
-	padding: 11px 7px;
+	vertical-align: middle;
+	padding:12px 5px;
 }
 .menumain li:hover{
 	background-color: #0B8BD8;	
@@ -21,4 +25,7 @@
 .menumain li:nth-child(2n) {
 	color: #0372B5;
 	font-size: 0.8em;
+}
+.menumain li:hover:nth-child(2n) {
+	background-color: #00629D;
 }

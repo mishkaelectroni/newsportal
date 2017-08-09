@@ -1,0 +1,18 @@
+.topnews{
+
+}
+.topnewsmain {
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.topnewsmain h4 a{
+	display: block;
+	color: #000;
+	float: left;
+}
+.topnewscontent {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	float: left;
+}
