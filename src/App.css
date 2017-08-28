@@ -3,7 +3,10 @@
   margin: 0 auto;
   display: grid;
   grid-template-rows: 270px 2fr 2fr 1fr 1fr 2fr 2fr 250px;
+  grid-gap: 20px;
 }
+/*270px minmax(520px, auto) minmax(520px, auto) minmax(280px, auto) minmax(280px, auto) minmax(520px, auto) minmax(520px, auto)250px;*/
+/*270px 2fr 2fr 1fr 1fr 2fr 2fr 250px;*/
 img {
 	max-width: 100%;
 }

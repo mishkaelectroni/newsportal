@@ -6,8 +6,8 @@ class Headermenu extends Component {
 	render() {
 		return (
 			<div className="headermenu">
-				<div className="menumain">
-					<ul>
+				
+					<ul className="menumain">
 						<li><Link to="/">HOME</Link></li>
 						<li>|</li>
 						<li><Link to="/topnews">WORLD</Link></li>
@@ -30,7 +30,7 @@ class Headermenu extends Component {
 						<li>|</li>
 						<li><Link to="/life">TECH</Link></li>
 					</ul>
-				</div>
+				
 			</div>
 		);
 	}
