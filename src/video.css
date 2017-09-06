@@ -1,3 +1,44 @@
 .video {
-	
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+} 
+.video img {
+	max-height: 100%;
+}
+.video a {
+	color: #188FD9;
+}
+.videomain {
+	width: 80%;
+	margin: 0 auto;		
+}
+
+.videomain h4 a{
+	display: block;
+	color: #000;
+	float: left;
+	 border-bottom: 4px solid #0B8BD8;
+}
+.videomain h4 a:hover {
+	color: #0B8BD8;
+}
+.videocontent {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	float: left;
+	margin-top: 10px;
+}
+.videocontent ul {
+	display: inline-flex;
+	list-style: none;
+		float: left;
+}
+.videocontent li:nth-child(4) {
+	margin-right: 0;
+}
+.videocontent li {
+	width: 25.5%;
+	margin: 0 1.5% 1% 0;
 }
